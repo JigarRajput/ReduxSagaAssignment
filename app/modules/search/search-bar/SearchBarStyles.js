@@ -8,7 +8,7 @@ import {
 
 const searchStyles = StyleSheet.create({
   container: {
-    borderBottomWidth: moderateScale(0.4)
+    borderBottomWidth: moderateScale(0.4),
   },
   searchInput: {
     backgroundColor: colors.white,
@@ -21,13 +21,12 @@ const searchStyles = StyleSheet.create({
     paddingHorizontal: horizontalScale(15),
     paddingVertical: Platform.OS === 'android' ? 0 : verticalScale(10),
     borderWidth: moderateScale(1),
-    borderColor: colors.grey
-    
+    borderColor: colors.grey,
   },
   searchText: {
     fontSize: moderateScale(14),
     width: '100%',
-    height: '100%'
+    height: '100%',
   },
   inputLeftImg: {
     width: horizontalScale(20),
